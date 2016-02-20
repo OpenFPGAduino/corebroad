@@ -1,0 +1,77 @@
+Protel Design System Design Rule Check
+PCB File : D:\Local\lophilo\Hardware\XEM-S91\Design\Source\PCB_XEM-S91.PcbDoc
+Date     : 7/19/2012
+Time     : 5:28:38 PM
+
+Processing Rule : Clearance Constraint (Gap=8mil) (All),((ObjectKind = 'Poly') And (Layer = 'Mid-Layer 4'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=6mil) (All),((IsRegion))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=4mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=4mil) (Max=200mil) (Preferred=4mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=6mil) (Conductor Width=6mil) (Air Gap=6mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=8mil) (Max=300mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=12mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=5mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silkscreen Over Component Pads (Clearance=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=4mil) (All),((OnLayer('Keep-Out Layer')))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mil) (Max=100mil) (Preferred=10mil) ((HasFootprint('LOGO_METEROI_ST_12X3')))
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=2000mil) ((Net = 'No Net'))
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mil) ((HasFootprint('LOGO_METEROI_ST_12X3'))),((HasFootprint('LOGO_METEROI_ST_12X3')))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (InNet('VBAT')&&(IsRegion)),(All)
+Rule Violations :0
+
+Processing Rule : Matched Net Lengths(Tolerance=250mil) (InNetClass('M3-UDQ'))
+Rule Violations :0
+
+Processing Rule : Matched Net Lengths(Tolerance=250mil) (InNetClass('M3-UDQb'))
+Rule Violations :0
+
+Processing Rule : Matched Net Lengths(Tolerance=250mil) (InNetClass('M3-LDQ'))
+Rule Violations :0
+
+Processing Rule : Matched Net Lengths(Tolerance=250mil) (InNetClass('M3-LDQb'))
+Rule Violations :0
+
+Processing Rule : Matched Net Lengths(Tolerance=300mil) (InNetClass('M3_CTL'))
+Rule Violations :0
+
+
+Violations Detected : 0
+Time Elapsed        : 00:00:10
